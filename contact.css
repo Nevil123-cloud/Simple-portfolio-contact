@@ -1,0 +1,53 @@
+/* Basic form styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2em 0;
+}
+
+section {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
